@@ -1,12 +1,17 @@
-# React + Vite
+# FirebaseAuth News — Newspaper Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive newspaper website built as a learning project to practice and implement Firebase Authentication and the onAuthStateChanged listener.
 
-Currently, two official plugins are available:
+🚀 Project Overview
+FirebaseAuth News is a front-end newspaper-style web app that allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sign up and log in using Firebase Authentication (Email/Password or any method you implement)
 
-## Expanding the ESLint configuration
+Stay logged in using session persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React dynamically to authentication state changes using onAuthStateChanged
+
+Access or restrict content based on authentication state
+
+This project is focused more on auth workflows and real-time user state handling than content management.
+
